@@ -1,0 +1,43 @@
+==========================================================================
+Objetivo
+
+A proposta desse projeto é criar uma página web responsiva utilizando as 
+tecnologias HTML e CSS.
+
+Dessa forma você vai poder colocar em prática os seguintes conceitos:
+Utilizar tags HTML básicas e semânticas;
+Utilizar tags de tabelas;
+Utilizar Flexbox e media queries.
+
+==========================================================================
+Overview
+
+- Site de uma clínica com 2 páginas:
+ - home
+ - especialidades
+
+==========================================================================
+Navegação
+ 
+- home:
+ - nav
+  - logo
+  - sobre
+  - especialidades    //interno para o cta da página de especialidades
+  - contato
+ - link: ver horários //externo para a página especialidades
+
+==========================================================================
+Divisões
+
+Ambas as páginas:
+- topo
+- conteudo
+- rodape
+
+==========================================================================
+Quebras
+
+- 320 até 425 (mobile)
+- 426 até 768 (tablet)
+- 769+ (desktop)
