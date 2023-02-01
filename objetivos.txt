@@ -23,7 +23,7 @@ Navegação
  - nav
   - logo
   - sobre
-  - especialidades    //interno para o cta da página de especialidades
+  - especialidades    //externo para a página especialidades
   - contato
  - link: ver horários //externo para a página especialidades
 

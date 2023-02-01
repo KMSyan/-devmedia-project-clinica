@@ -1,0 +1,15 @@
+==========================================================================
+Checklist
+
+Para garantir que seu passo 1 está completo, verifique os itens abaixo:
+
+Certifique-se de que a hierarquia dos elementos HTML está correta
+Certifique-se ter inserido o título da página (tag Title)
+Certifique-se ter definido o charset da página (meta tag charset UTF-8)
+Certifique-se de que a estrutura HTML usa tags do HTML semântico;
+Certifique-se de que ao clicar na logo do topo a página index.html seja carregada;
+Certifique-se de que os links âncora do topo da página estão apontando para os locais corretos. São eles:
+Sobre
+Contato
+Certifique-se de que as imagens estão sendo exibidas na tela;
+Certifique-se de que o iframe está sendo exibido na tela.
