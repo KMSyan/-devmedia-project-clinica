@@ -1,0 +1,55 @@
+==========================================================================
+estrutura
+- paginas:
+ - home
+ - especialidades
+- assets
+ - imagens
+- css
+
+==========================================================================
+Home
+
+<nav>
+ <figure>
+  - logo (home)
+ - ul
+  - sobre
+  - especialidades
+  - contato
+//
+
+<main>
+ <header>.banner
+  - h1
+  - p
+ //
+ <section>#sobre
+  <header>
+   - h2
+   - p
+  <section>
+   - h3
+   - ul
+   - img
+  <section>
+   <header>
+    - h3
+    - p
+   <div>
+    <figure> * 3
+     - card (img + caption)
+    <aside>
+     - a (ver horários)
+ //
+ <section>#contato
+ - h2
+ - p * 3
+ - iframe com o mapa
+
+//
+<footer>
+ <figure>
+  - logo
+ <section>
+  - p * 3
