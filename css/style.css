@@ -1,8 +1,8 @@
 /* || global */
 * { box-sizing: border-box; margin: 0; padding: 0;}
+html { font-size: 16px; }
 body { 
   font-family: "Source Sans Pro", sans-serif;
-  font-size: 16px; 
   line-height: 1.5rem;
   color: #646464;
 }
@@ -45,10 +45,13 @@ img { width: 100%}
   margin-right: auto;
   margin-left: auto;
 }
-.container.pt-m { padding-top: 5rem;}
+.container.pt-m { padding-top: 3.5rem;}
+.limiter {
+  max-width: 680px;
+}
 .pb-p { padding-bottom: 1rem;}
 .btn {
-  background-color:#00cad1;
+  background-color:darkturquoise;
   border-radius: 2px;
   padding: .4rem 1rem;
   font-weight: 900;
@@ -69,7 +72,7 @@ img { width: 100%}
 .links-topo {
   position: sticky;
   top: 0;
-  background-color: #00cad1;
+  background-color: darkturquoise;
   height: 75px;
 }
 .links-topo a {
@@ -89,12 +92,11 @@ img { width: 100%}
 }
 /* | banner */
 .banner {
-  min-height: calc(100vh - 75px);
+  height: 500px;
   background: url("../assets/assets/recepcao.png") center;
   background-size: cover;
 }
 .banner div {
-  max-width: 1024px;
   width: 100%;
 }
 .h1,
@@ -106,6 +108,9 @@ img { width: 100%}
 .features > div {
   flex-flow: row-reverse;
 }
+.features figure {
+  align-self: flex-end;
+}
 /* | cta especialidades */
 .card-row {
   padding: 3rem 0;
@@ -114,7 +119,7 @@ img { width: 100%}
   max-width: 30%;
   border-radius: 5px;
   overflow: hidden;
-  box-shadow: 5px 5px 10px 5px rgba(0,0,0,.2)
+  box-shadow: 5px 5px 10px 5px rgba(0,0,0,.2);
 }
 .card-row  figcaption {
   padding: 1rem;
@@ -129,7 +134,7 @@ img { width: 100%}
 }
 /* | footer */
 .footer {
-  background-color:#15878b;
+  background-color:darkcyan;
 }
 .footer figure {
   display: inline-block;
@@ -137,3 +142,103 @@ img { width: 100%}
 }
 
 /* || media query */
+/* 320 a 425 */
+@media (max-width: 425px) {
+  html { font-size: 14px;}
+  :target::before {
+    padding-top: 80px!important;
+  }
+  :target {
+    margin-top: -80px!important;
+  }
+  /*  */
+  .display-1 {
+    margin-bottom: 1.3rem;
+  }
+  .display-2 {
+    margin-bottom: 1rem;
+  }
+  /*  */
+  .links-topo {
+    height: 110px;
+  }
+  .links-topo > div {
+    flex-direction: column;
+  }
+  .links-topo figure::after {
+    content: "";
+    display: block;
+    position: relative;
+    height:1px;
+    width: 80vw;
+    top: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-bottom:2px outset rgba(255,255,255,.3);
+  }
+  /*  */
+  .banner {
+    max-height: 200px!important;
+  }
+  .h1,
+  .banner p {
+   font-size: 1.9rem;
+   line-height: 2rem;
+  }
+  /*  */
+  .card-row  figure {
+    min-width: 80%;
+  }
+  /*  */
+  .container.mapa {
+    padding: 0 0 3.5rem;
+  }
+}
+@media (max-width: 768px){
+  :target::before {
+    content: "";
+    display: block;
+    padding-top: 40px;
+  }
+  :target {
+    margin-top: -40px;
+  }
+  /*  */
+  .container.pt-m {
+    padding-top: 2rem;
+  }
+  /*  */
+  .banner {
+    max-height: 300px!important;
+  }
+  .h1,
+  .banner p {
+   font-size: 2.5rem;
+   line-height: 3.2rem;
+   font-weight: 600;
+  }
+  /*  */
+  .features ul {
+    padding-left: 1.5rem;
+  }
+  .features figure {
+    display: none;
+  }
+  .card-row {
+    flex-wrap: wrap;
+    padding-top: 0;
+  }
+  .card-row  figure {
+    max-width: 40%;
+    margin: 2rem 0;
+  }
+  .cta aside {
+    margin: -2rem 0 1.5rem;
+  }
+}
+@media (max-width: 1024px){
+  .banner {
+    max-height: 400px;
+  }
+}
+@media (min-width: 1025px){}
