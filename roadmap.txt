@@ -10,7 +10,7 @@ estrutura
 ==========================================================================
 Home
 
-<nav>
+<nav>.links-topo
  <figure>
   - logo (home)
  - ul
@@ -28,15 +28,15 @@ Home
   <header>
    - h2
    - p
-  <section>
+  <section>.features
    - h3
    - ul
    - img
-  <section>
+  <section>.cta
    <header>
     - h3
     - p
-   <div>
+   <div>.card-row
     <figure> * 3
      - card (img + caption)
     <aside>
@@ -45,10 +45,10 @@ Home
  <section>#contato
  - h2
  - p * 3
- - iframe com o mapa
+ <iframe>.mapa
 
 //
-<footer>
+<footer>.footer
  <figure>
   - logo
  <section>

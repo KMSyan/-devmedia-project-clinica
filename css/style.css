@@ -1,0 +1,139 @@
+/* || global */
+* { box-sizing: border-box; margin: 0; padding: 0;}
+body { 
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 16px; 
+  line-height: 1.5rem;
+  color: #646464;
+}
+a {
+  text-decoration: none;
+}
+p, li { font-size: 1.15rem;}
+img { width: 100%}
+
+/* weights: 200,300,400,600,700,900;*/
+/* || reutilizavel */
+/* | cor */
+.text-light,
+.text-light a { color: #fff;} 
+/* | tipografia */
+.fw-200 { font-weight: 200;}
+.fw-400 { font-weight: 400;}
+.fw-600 { font-weight: 600;}
+.text-center { text-align: center;}
+.text-uppercase {
+  text-transform: uppercase;
+}
+.display-1 {
+  font-size: 2rem;
+  margin: 2.25rem 0;
+  line-height: 2.2rem;
+}
+.display-2 {
+  font-size: 1.5rem;
+  margin: 2rem;
+  line-height: 1.7rem;
+}
+.lh-m {
+  line-height: 2.8rem;
+}
+/* | espaço */
+.container {
+  max-width: 1024px;
+  padding: .4rem 1rem;
+  margin-right: auto;
+  margin-left: auto;
+}
+.container.pt-m { padding-top: 5rem;}
+.pb-p { padding-bottom: 1rem;}
+.btn {
+  background-color:#00cad1;
+  border-radius: 2px;
+  padding: .4rem 1rem;
+  font-weight: 900;
+  letter-spacing: 1.5px;
+}
+/* | flex */
+.d-flex { display: flex;}
+.d-flex .flex-column{
+  flex-direction: column;
+}
+.justify-content-center { justify-content: center;}
+.justify-content-between { justify-content: space-between;}
+.justify-content-around { justify-content: space-around;}
+.align-items-center { align-items: center;}
+
+/* || especificas */
+/* | topo */
+.links-topo {
+  position: sticky;
+  top: 0;
+  background-color: #00cad1;
+  height: 75px;
+}
+.links-topo a {
+  font-size: 1.2rem;
+}
+.links-topo a:hover {
+  color: #646464;
+}
+.links-topo figure {
+  max-width: 130px;
+}
+.links-topo ul {
+  list-style: none;
+}
+.links-topo li:not(:last-child) {
+  margin-right: 1.2rem;
+}
+/* | banner */
+.banner {
+  min-height: calc(100vh - 75px);
+  background: url("../assets/assets/recepcao.png") center;
+  background-size: cover;
+}
+.banner div {
+  max-width: 1024px;
+  width: 100%;
+}
+.h1,
+.banner p {
+ font-size: 4rem;
+ line-height: 4.2rem;
+}
+/* | features */
+.features > div {
+  flex-flow: row-reverse;
+}
+/* | cta especialidades */
+.card-row {
+  padding: 3rem 0;
+}
+.card-row  figure {
+  max-width: 30%;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 5px 5px 10px 5px rgba(0,0,0,.2)
+}
+.card-row  figcaption {
+  padding: 1rem;
+  font-size: 1.5rem;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+/* | contato */
+.mapa {
+  width: 100%;
+  padding-bottom: 5rem;
+}
+/* | footer */
+.footer {
+  background-color:#15878b;
+}
+.footer figure {
+  display: inline-block;
+  max-width: 150px;
+}
+
+/* || media query */

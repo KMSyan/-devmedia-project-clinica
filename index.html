@@ -4,19 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Projeto | CMLife - Home</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display-1=swap">
   </head>
   <body>
     <!-- topo -->
-    <nav>
-      <div>
+    <nav class="links-topo">
+      <div class="d-flex container justify-content-between align-items-center">
         <figure>
           <a href="index.html">
             <img src="assets\assets\logo.png" alt="Clínica Médica" title="Clínica Médica Life">
           </a>
         </figure>
         <div>
-          <ul>
+          <ul class="d-flex fw-600 text-light">
             <li>
               <a href="#sobre">Sobre</a>
             </li>
@@ -33,83 +34,85 @@
     <!-- conteudo -->
     <main>
       <!-- banner -->
-      <header class="banner">
-        <div>
-          <h1>Clínica Médica Life</h1>
+      <header class="banner d-flex align-items-center">
+        <div class="container text-light">
+          <h1 class="h1 fw-400">Clínica Médica Life</h1>
           <p>Aqui a gente cuida de você</p>
         </div>
       </header>
       <!-- sobre -->
       <section id="sobre">
-        <header>
-          <h2>Sobre a clínica</h2>
+        <header class="container pt-m text-center pb-p">
+          <h2 class="display-1">Sobre a clínica</h2>
           <p>
             Nossa clínica está pronta para receber nossos pacientes através de uma excelente estrutura, comodidade e com a segurança de que você precisa.
           </p>
         </header>
         <!-- features -->
-        <section>
-          <div>
-            <h3>Aqui na nossa clínica você vai encontrar:</h3>
-            <ul>
-              <li>Horário flexível. Atendemos de segunda à sábado.</li>
-              <li>Estacionamento amplo com 600 vagas.</li>
-              <li>Sala de espera com TV e Wifi.</li>
-              <li>Agendamento pelo telefone ou WhatsApp.</li>
-              <li>Excelente localização.</li>
-              <li>Entrega de exames em sua residência.</li>
-            </ul>
+        <section class="features">
+          <div class="container d-flex justify-content-center align-items-center">
+            <div class="d-flex flex-column align-items-center">              
+              <h3 class="display-1 fw-200">Aqui na nossa clínica você vai encontrar:</h3>
+              <ul>
+                <li>Horário flexível. Atendemos de segunda à sábado.</li>
+                <li>Estacionamento amplo com 600 vagas.</li>
+                <li>Sala de espera com TV e Wifi.</li>
+                <li>Agendamento pelo telefone ou WhatsApp.</li>
+                <li>Excelente localização.</li>
+                <li>Entrega de exames em sua residência.</li>
+              </ul>
+            </div>
+            <!-- vai ser colocado na posição certa com css -->
+            <figure>
+              <img src="assets\assets\medico.jpg" alt="">
+            </figure>
           </div>
-          <!-- vai ser colocado na posição certa com css -->
-          <figure>
-            <img src="assets\assets\medico.jpg" alt="">
-          </figure>
         </section>
         <!-- cta especialidades -->
-        <section>
-          <header>
-            <h3>Uma clínica de multiespecialidade</h3>
+        <section class="cta text-center">
+          <header class="container pt-m pb-p">
+            <h3 class="display-2">Uma clínica de multiespecialidade</h3>
             <p>
-              Nossa clínica possui diversas especialidades. Como ortopedia, pediatra, geriatria, psicologia, fisioterapia e outros.
+              Nossa clínica possui diversas especialidades. Como ortopedia, pediatria, geriatria, psicologia, fisioterapia e outros.
             </p>
           </header>
-          <div>
+          <div class="card-row container d-flex justify-content-around">
             <figure>
               <img src="assets\assets\ortopedia1.png" alt="">
-              <figcaption></figcaption>
+              <figcaption>ortopedia</figcaption>
             </figure>
             <figure>
               <img src="assets\assets\pediatra.png" alt="">
-              <figcaption></figcaption>
+              <figcaption>pediatria</figcaption>
             </figure>
             <figure>
               <img src="assets\assets\geriatra.png" alt="">
-              <figcaption></figcaption>
+              <figcaption>geriatria</figcaption>
             </figure>
           </div>
           <aside>
-            <a href="">Ver Horários</a>
+            <a class="text-uppercase btn text-light" href="">Ver Horários</a>
           </aside>
         </section>
       </section>
       <!-- contato -->
-      <section id="contato">
-        <div>
-          <h2>Contato</h2>
-          <p>Nossa clínica médica está aberto de segunda à sábado das 6:00 às 21:00</p>
-          <p>Através do telefone/WhatsApp (21) 99966-5555 você pode fazer o agendamento de consultas e exames.</p>
-          <p>Estamos localizados no estacionamento do Via Parque Shopping av. Ayrton Senna, 3000 - Barra da Tijuca, Rio de Janeiro.</p>
+      <section id="contato" class="text-center">
+        <div class="container pt-m pb-p lh-m">
+          <h2 class="display-2">Contato</h2>
+          <p>Nossa clínica médica está aberto de <b>segunda à sábado das 6:00 às 21:00</b></p>
+          <p>Através do telefone/WhatsApp <b>(21) 99966-5555</b> você pode fazer o agendamento de consultas e exames.</p>
+          <p>Estamos localizados no estacionamento do Via Parque Shopping <b>av. Ayrton Senna, 3000 - Barra da Tijuca, Rio de Janeiro.</b></p>
         </div>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3673.118062389549!2d-43.36637978451825!3d-22.98268564636286!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9bda2c2293fa63%3A0x539cb07246f0e38d!2sVia%20Parque%20Shopping!5e0!3m2!1spt-BR!2sbr!4v1675273270136!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <iframe class="container mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3673.118062389549!2d-43.36637978451825!3d-22.98268564636286!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9bda2c2293fa63%3A0x539cb07246f0e38d!2sVia%20Parque%20Shopping!5e0!3m2!1spt-BR!2sbr!4v1675273270136!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
       </section>
     </main>
     <!-- rodape -->
-    <footer>
-      <div>
+    <footer class="footer">
+      <div class="container text-center">
         <figure>
           <img src="assets\assets\logo.png" alt="">
         </figure>
-        <section>
+        <section class="text-light lh-m">
           <p>Telefone e WhatsApp: (21) 99966-5555</p>
           <p>Endereço: Av. Ayrton Senna, 3000 - Barra da Tijuca, Rio de Janeiro</p>
           <p>©2020 Clínica Médica Life  - Todos os direitos reservados</p>
