@@ -45,3 +45,46 @@ Life aqui a gente cuida de você") esteja mudando de altura nas resoluções 425
 - Certifique-se de que os boxes com as especialidades - os cards que possuem uma imagem 
 legendada com o nome da especialidade (ortopedia, pediatria e geriatria), se ajustem baseado 
 no tamanho da tela.
+
+==========================================================================
+Checklist
+
+Para garantir que seu passo 4 está completo, verifique os itens abaixo:
+
+- Certifique-se ter inserido o título da página (tag Title) e definido o charset da página 
+(meta tag charset UTF-8) dentro da tag <head></head>.
+- Certifique-se de que a estrutura HTML usa tags do HTML semântico.
+- Certifique-se de que os links âncora estão apontando para os locais corretos. São eles:
+  - Ortopedia
+  - Pediatria
+  - Geriatria
+  - Psicologia
+  - Fisioterapia
+- Certifique-se de que as imagens estão sendo exibidas na tela.
+- Certifique-se de que os links do topo apontam para a página correta:
+   - A logo deve abrir a página home.
+   - O link "Sobre" deve abrir a página home na sessão "Sobre a clínica".
+   - O link "Especialidades" deve abrir a própria página Especialidades.
+   - O link "Contato" deve abrir a página home na sessão que possui os dados de contato e o iframe.
+   - Na página home certifique-se de que o link "Especialidades" no topo e o link "Ver horário" 
+ estejam apontando para a página Especialidades.
+
+==========================================================================
+Checklist
+
+Para garantir que seu passo 5 está completo, verifique os itens abaixo:
+
+- Certifique-se de ter inserido as classes CSS nas tags HTML (arquivo index.html).
+- Certifique-se de que os links âncoras das especialidades mudem de cor quando o mouse estiver 
+sobre eles. São eles:
+ - Ortopedia
+ - Pediatria
+ - Geriatria
+ - Psicologia
+ - Fisioterapia
+- Certifique-se de que as classes estão sendo reutilizadas quando possível (você não deve criar diferentes classes que possuem o mesmo estilo CSS).
+- Certifique-se de que a imagem está à esquerda da tabela e que ambas possuem a mesma altura.
+- Certifique-se de que as linhas das tabelas estão com cores diferentes.
+- Cabeçalho com uma cor única.
+- Linhas pares com outra cor.
+- Linhas ímpares com outra cor.

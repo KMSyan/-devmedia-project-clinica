@@ -30,3 +30,65 @@ Estamos localizados no estacionamento do Via Parque Shopping av. Ayrton Senna, 3
 Telefone e WhatsApp: (21) 99966-5555
 Endereço: Av. Ayrton Senna, 3000 - Barra da Tijuca, Rio de Janeiro
 ©2020 Clínica Médica Life  - Todos os direitos reservados
+
+////////////////////////////////////////////////////////////////////////////////
+(semi-copiado da imagem da página do projeto)
+* os textos maiores e não fornecidos em txt vão ser substituidos por placeholders.
+
+titulo: ?
+menu(principal): logo / sobre / especialidades / contato
+//
+menu(secundario): ortopedia / pediatria / geriatria / psicologia / fisioterapia
+h1: Conheça nossas especialidades
+//
+h2: Ortopedia
+p: *
+(flex)
+imagem(esquerda)
+table(direita): 3 x 3
+thead -> dias / horários / médico(a)
+dias -> segunda e quarta / terça, quinta e sexta / sábado
+horário -> 8:00 às 13:00 / 14:00 às 21:00 / 8:00 as 21:00 
+médico -> *
+//
+h2: Pediatria
+p: *
+(flex)
+imagem(esquerda)
+table(direita): 3 x 3
+thead -> dias / horários / médico(a)
+dias -> segunda e quarta / terça, quinta e sexta / sábado
+horário -> 8:00 às 15:00 / 13:00 às 21:00 / 8:00 as 12:00 
+médico -> *
+//
+h2: Geriatria
+p: *
+(flex)
+imagem(esquerda)
+table(direita): 3 x 4
+thead -> dias / horários / médico(a)
+dias -> segunda e quinta / terça e quarta / sexta / sábado
+horário -> 9:00 às 12:00 / 9:00 às 16:00 / 8:00 às 19:00 / 8:00 as 14:00 
+médico -> *
+//
+h2: Psicologia
+p: *
+(flex)
+imagem(esquerda)
+table(direita): 3 x 3
+thead -> dias / horários / médico(a)
+dias -> segunda, terça e quarta / quinta e sexta / sábado
+horário -> 8:00 às 21:00 / 14:00 às 18:00 / 10:00 as 15:00 
+médico -> *
+//
+h2: Fisioterapia
+p: *
+(flex)
+imagem(esquerda)
+table(direita): 3 x 5
+thead -> dias / horários / médico(a)
+dias -> segunda e quinta / segunda e quarta / terça e sexta / terça e quinta / quarta e sábado
+horário -> 11:00 às 20:00 / 8:00 às 15:00 / 14:00 as 21:00 / 8:00 às 14:00 / 8:00 as 21:00 
+médico -> *
+//
+footer
