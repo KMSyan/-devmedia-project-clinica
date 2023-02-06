@@ -88,3 +88,12 @@ sobre eles. São eles:
 - Cabeçalho com uma cor única.
 - Linhas pares com outra cor.
 - Linhas ímpares com outra cor.
+
+==========================================================================
+Checklist
+
+Para garantir que seu passo 6 esteja finalizado, verifique os seguintes itens:
+
+- Certifique-se de que a meta tag viewport foi inserida no HTML da página Especialidades (arquivo especialidades.html).
+- Certifique-se de que as imagens do conteúdo da página só apareçam acima de 768px de largura da tela.
+- Certifique-se de que as linhas das tabelas possuem o mesmo tamanho.
